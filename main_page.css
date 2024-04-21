@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.section {
+    font-size: 18px;
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    padding: 0.5%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.butn {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    color: #c86203;
+    padding: 5px 30px;
+    border-radius: 50px;
+    width: 135px;
+    height: 100%;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #292929;
+}
+
+.nav {
+    align-items: center;
+    padding-right: 30px;
+}
+
+.top a:hover {
+    color: #292929;
+    background-color: #c86203;
+    transition: 1s;
+}
+
+.img {
+    margin-top: 5px;
+    max-height: 100%;
+}
+
+.main_img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.section h1 {
+    font-size: 35px;
+    color: hsla(32, 96%, 46%, 0.819);
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 250px;
+    -webkit-text-stroke: 1px rgba(197, 98, 37, 0.822);
+    color: hsla(32, 96%, 46%, 0.819);
+    transition: 1s;
+}
+
+.section h1:hover {
+    -webkit-text-stroke: 1px hsla(32, 96%, 46%, 0.819);
+    color: transparent;
+}
+
+.section h2 {
+    font-size: 29px;
+    color: hsla(32, 96%, 46%, 0.819);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 250px;
+    -webkit-text-stroke: 1px rgba(197, 98, 37, 0.822);
+    color: hsla(32, 96%, 46%, 0.819);
+    transition: 1s;
+}
+
+.section h2:hover {
+    -webkit-text-stroke: 1px hsla(32, 96%, 46%, 0.819);
+    color: transparent;
+}
+
+.section2 {
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    padding: 0.5%;
+    padding-top: 30px;
+    text-align: center;
+    height: 1000px;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+.categories {
+    display: inline-block;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    border: 3px solid #a95608;
+    transition: 1s;
+}
+
+.section2 h1 {
+    color: #c66000;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.categories h2 {
+    color: #c66000;
+    margin-top: 30px;
+}
+
+.section2 h1:hover{
+    font-size:36px;
+}
+.categories:hover {
+    background-color: white;
+    border: 3px solid;
+    border-color: #c86203;
+    color: #c86203;
+    height: 450px;
+    width: 330px;
+}
+
+.cat_img {
+    display: absolute;
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #c86203;
+    transition: 1s;
+}
+
+.cat_img:hover {
+    width: 270px;
+    height: 270px;
+}
+
+.section3 {
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    padding: 0.5%;
+    padding-top: 30px;
+    text-align: center;
+    height: 1000px;
+    margin-top: 40px;
+}
+
+.cusines {
+    display: inline-block;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    border: 3px #c66000 solid;
+    transition: 1s;
+}
+
+.section3 h1 {
+    color: #c66000;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.section3 h1:hover{
+    font-size:36px;
+}
+
+.cusines h2 {
+    color: #c66000;
+    margin-top: 30px;
+}
+
+.cusines:hover {
+    background-color: white;
+    border: 3px solid;
+    border-color: #c86203;
+    color: #c86203;
+    height: 450px;
+    width: 330px;
+}
+
+.cui_img {
+    display: absolute;
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #c86203;
+    transition: 1s;
+}
+
+.cui_img:hover {
+    width: 270px;
+    height: 270px;
+}
+
+.expl_btn {
+    visibility: hidden;
+    padding: 2px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #c1811188;
+    background: linear-gradient(90deg, #e67e1d, #bd5d03);
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 135px;
+    margin-top: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.categories:hover .expl_btn {
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.cusines:hover .expl_btn {
+    visibility: visible;
+    transition: 0.5s;
+
+}
